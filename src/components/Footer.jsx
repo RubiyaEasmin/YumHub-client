@@ -20,7 +20,7 @@ const Footer = () => {
             <h2 className="text-2xl">
               Yum<span className="text-red-500">Hub</span>
             </h2>
-            <div className="grid grid-cols-3 md:grid-cols-5 my-3">
+            <div className="grid grid-cols-2 md:grid-cols-4 my-3">
               <h2><NavLink to={`/`}>Home</NavLink></h2>
               <h2><NavLink to={`/add-food`}>Add Food</NavLink></h2>
               <h2><NavLink to={`/manage-myFood`}>Manage MyFood</NavLink></h2>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <p>Providing reliable food since 1992</p>
           </div>
-          <p>Copyright © 2024 - All right reserved</p>
+          <p>Copyright © 2025 - All right reserved</p>
         </aside>
         <nav>
           <div className="grid grid-flow-col gap-4">
